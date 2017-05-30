@@ -8,7 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.idea/
+.idea
 env/
 build/
 develop-eggs/
@@ -100,3 +100,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+.idea/workspace.xml
+.gitignore.bak
