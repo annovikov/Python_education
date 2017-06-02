@@ -2,7 +2,7 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time, unittest
-from groups import ContactGroup
+from contact import ContactGroup
 
 def is_alert_present(wd):
     try:
@@ -16,18 +16,20 @@ class test_add_contacts(unittest.TestCase):
         self.wd = WebDriver()
         self.wd.implicitly_wait(60)
     
-    def test_test_add_contacts(self):
+    def test_add_contacts(self):
         wd = self.wd
-        self.Open_HomePage(wd)
-        self.Login(wd, username="admin", password="secret")
-        self.Add_NewContact(wd, ContactGroup(firstname="Ivan", lastname="Ivanov", nickname="goodman", company="TTY", address="Ekaterinburg", hometel="55557777", email="fakemail@ty.ru",
+        self.open_home_page(wd)
+        self.login(wd, username="admin", password="secret")
+        self.add_new_contact(wd, ContactGroup(firstname="Ivan", lastname="Ivanov", nickname="goodman", company="TTY", address="Ekaterinburg", hometel="55557777", email="fakemail@ty.ru",
                             address2="Lenina str 5/7"))
-        self.Logout(wd)
+        self.logout(wd)
 
-    def Logout(self, wd):
+    def logout(self, wd):
+        wd = self.wd
         wd.find_element_by_link_text("Logout").click()
 
-    def Add_NewContact(self, wd, contactgroup):
+    def add_new_contact(self, wd, contactgroup):
+        wd = self.wd
         wd.find_element_by_link_text("add new").click()
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
@@ -55,7 +57,8 @@ class test_add_contacts(unittest.TestCase):
         wd.find_element_by_name("address2").send_keys(contactgroup.address2)
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
 
-    def Login(self, wd, username, password):
+    def login(self, wd, username, password):
+        wd = self.wd
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys(username)
@@ -64,7 +67,8 @@ class test_add_contacts(unittest.TestCase):
         wd.find_element_by_name("pass").send_keys(password)
         wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
 
-    def Open_HomePage(self, wd):
+    def open_home_page(self, wd):
+        wd = self.wd
         wd.get("http://localhost/addressbook/")
 
     def tearDown(self):
