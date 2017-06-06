@@ -43,4 +43,4 @@ class ContactHelper:
         wd.find_element_by_name("selected[]").click()
         # delete
         wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[2]/input").click()
-        wd.switchTo().alert().accept()
+        wd.switch_to_alert().accept()
