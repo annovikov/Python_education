@@ -31,3 +31,16 @@ class ContactHelper:
         wd.find_element_by_name("address2").clear()
         wd.find_element_by_name("address2").send_keys(contactgroup.address2)
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+
+    def open_contacts_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        self.open_contacts_page()
+        # select first group
+        wd.find_element_by_name("selected[]").click()
+        # delete
+        wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[2]/input").click()
+        wd.switchTo().alert().accept()
