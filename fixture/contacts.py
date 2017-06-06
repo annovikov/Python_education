@@ -36,7 +36,7 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("home").click()
 
-    def delete_first_contact(self):
+    def delete_first(self):
         wd = self.app.wd
         self.open_contacts_page()
         # select first group
@@ -44,3 +44,20 @@ class ContactHelper:
         # delete
         wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
+
+    def modify_first(self, contactgroup):
+        wd = self.app.wd
+        self.open_contacts_page()
+        wd.find_element_by_xpath(".//*[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        wd.find_element_by_name("middlename").click()
+        wd.find_element_by_name("middlename").clear()
+        wd.find_element_by_name("middlename").send_keys(contactgroup.middlename)
+        wd.find_element_by_name("home").click()
+        wd.find_element_by_name("home").clear()
+        wd.find_element_by_name("home").send_keys(contactgroup.hometel)
+        wd.find_element_by_name("notes").click()
+        wd.find_element_by_name("notes").clear()
+        wd.find_element_by_name("notes").send_keys(contactgroup.notes)
+        wd.find_element_by_name("update").click()
+
+
