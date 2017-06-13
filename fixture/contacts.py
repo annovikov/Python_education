@@ -60,4 +60,10 @@ class ContactHelper:
         wd.find_element_by_name("notes").send_keys(contactgroup.notes)
         wd.find_element_by_name("update").click()
 
+    def count(self):
+        wd = self.app.wd
+        self.open_contacts_page()
+        return len(wd.find_elements_by_name("selected[]"))
+
+
 

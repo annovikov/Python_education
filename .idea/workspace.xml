@@ -15,33 +15,9 @@
       <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="87" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="87" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +25,18 @@
       <file leaf-file-name="test_del_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_del_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixture/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -59,8 +45,8 @@
       <file leaf-file-name="test_modify_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_modify_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,8 +55,8 @@
       <file leaf-file-name="test_modify_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_modify_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -79,8 +65,8 @@
       <file leaf-file-name="test_add_contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_add_contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="89" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -96,21 +82,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_del_contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_del_contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_del_contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_del_contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,17 +142,17 @@
         <option value="$PROJECT_DIR$/test_add_group.py" />
         <option value="$PROJECT_DIR$/tests/conftest.py" />
         <option value="$PROJECT_DIR$/model/contact.py" />
-        <option value="$PROJECT_DIR$/fixture/contacts.py" />
-        <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/tests/test_add_contacts.py" />
         <option value="$PROJECT_DIR$/tests/test_add_group.py" />
-        <option value="$PROJECT_DIR$/tests/test_del_contact.py" />
-        <option value="$PROJECT_DIR$/tests/test_del_group.py" />
-        <option value="$PROJECT_DIR$/tests/test_modify_contact.py" />
-        <option value="$PROJECT_DIR$/tests/test_modify_group.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/tests/test_del_group.py" />
+        <option value="$PROJECT_DIR$/fixture/group.py" />
+        <option value="$PROJECT_DIR$/tests/test_del_contact.py" />
+        <option value="$PROJECT_DIR$/fixture/contacts.py" />
+        <option value="$PROJECT_DIR$/tests/test_modify_contact.py" />
+        <option value="$PROJECT_DIR$/tests/test_modify_group.py" />
       </list>
     </option>
   </component>
@@ -265,39 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_del_contact.py">
-    <configuration default="false" name="py.test in test_modify_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_education" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_modify_group.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_add_contacts.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_education" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_add_contacts.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test for test_modify_group.test_modify_first_group">
     <configuration default="false" name="py.test in test_del_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,7 +294,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="py.test for test_del_group.test_delete_first_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -342,8 +306,40 @@
       <module name="Python_education" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_del_group.test_delete_first_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test for test_modify_contact.test_modify_first_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_education" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_modify_contact.test_modify_first_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test for test_modify_group.test_modify_first_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_education" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_modify_group.test_modify_first_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -412,19 +408,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_group.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contacts.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_del_contact.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_del_contact.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_del_group.test_delete_first_group" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_modify_contact.test_modify_first_contact" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_modify_group.test_modify_first_group" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_del_contact.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contacts.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_modify_group.test_modify_first_group" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_modify_contact.test_modify_first_contact" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_del_contact.py" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_del_group.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_group.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_del_group.test_delete_first_group" />
       </list>
     </recent_temporary>
   </component>
@@ -442,35 +438,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_del_contact_py - 2017.06.09 at 15h 23m 22s.xml">
+    <history-entry file="py_test_for_test_del_group_test_delete_first_group - 2017.06.13 at 17h 42m 52s.xml">
+      <configuration name="py.test for test_del_group.test_delete_first_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_del_group_test_delete_first_group - 2017.06.13 at 17h 43m 41s.xml">
+      <configuration name="py.test for test_del_group.test_delete_first_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_modify_contact_test_modify_first_contact - 2017.06.13 at 17h 57m 10s.xml">
+      <configuration name="py.test for test_modify_contact.test_modify_first_contact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_modify_group_test_modify_first_group - 2017.06.13 at 17h 58m 57s.xml">
+      <configuration name="py.test for test_modify_group.test_modify_first_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 49m 31s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_contact_py - 2017.06.09 at 15h 31m 20s.xml">
+    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 50m 16s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 21m 27s.xml">
+    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 50m 43s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 23m 02s.xml">
+    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 53m 04s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 24m 00s.xml">
+    <history-entry file="py_test_in_test_del_contact_py - 2017.06.13 at 17h 53m 50s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_group_py - 2017.06.09 at 14h 12m 45s.xml">
+    <history-entry file="py_test_in_test_del_group_py - 2017.06.13 at 17h 51m 32s.xml">
       <configuration name="py.test in test_del_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_del_group_py - 2017.06.09 at 14h 38m 57s.xml">
-      <configuration name="py.test in test_del_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_modify_group_py - 2017.06.09 at 14h 16m 58s.xml">
-      <configuration name="py.test in test_modify_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_tests - 2017.06.13 at 16h 47m 24s.xml">
-      <configuration name="py.test in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_tests - 2017.06.13 at 16h 56m 52s.xml">
-      <configuration name="py.test in tests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -587,6 +583,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -667,6 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,6 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,6 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,6 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,20 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -828,61 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_del_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_del_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_modify_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_modify_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_add_contacts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -897,6 +829,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -905,13 +855,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_add_contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="6" column="89" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="87" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_modify_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_modify_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_del_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_del_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
