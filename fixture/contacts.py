@@ -30,28 +30,47 @@ class ContactHelper:
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
 
-    def modify_first(self, new_contactgroup):
+    def modify_by_index(self, index, new_contactgroup):
         wd = self.app.wd
         self.open_contacts_page()
-        wd.find_element_by_xpath(".//*[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        # self.select_contact_by_index(index)
+        # search Modify btn with index
+        wd.find_element_by_xpath(".//*[@id='maintable']/tbody/tr["+str(index+2)+"]/td[8]/a/img").click()
         self.fill_contact_form(new_contactgroup)
         wd.find_element_by_name("update").click()
         self.contact_cash = None
 
+    def modify_first(self):
+        self.modify_by_index(0)
+
+
     def open_contacts_page(self):
         wd = self.app.wd
-        if not (wd.current_url.endswith("/addressbook/") and len(wd.find_elements_by_name("Send e-Mail")) > 0):
+        if not (wd.current_url.endswith("/addressbook/")  > 0):
             wd.find_element_by_link_text("home").click()
 
-    def delete_first(self):
+    def delete_by_index(self, index):
         wd = self.app.wd
         self.open_contacts_page()
         # select first group
-        wd.find_element_by_name("selected[]").click()
+        self.select_contact_by_index(index)
         # delete
         wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
         self.contact_cash = None
+
+    def delete_first(self):
+        self.delete_by_index(0)
+
+    def select_contact_by_index(self, index):
+        wd = self.app.wd
+        wd.find_elements_by_name("selected[]")[index].click()
+
+
+    def select_first(self):
+        wd = self.app.wd
+        wd.find_element_by_name("selected[]").click()
+
 
     def count(self):
         wd = self.app.wd
@@ -71,6 +90,8 @@ class ContactHelper:
                 id = element.find_element_by_name("selected[]").get_attribute("value")
                 self.contact_cash.append(ContactGroup(firstname=firstname, lastname=lastname, id=id))
         return list(self.contact_cash)
+
+
 
 
 
