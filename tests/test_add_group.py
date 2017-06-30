@@ -30,7 +30,7 @@ def test_add_group(app, group):
     assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
 
 
-def test_add_define_group(app):
+def test_add_defined_group(app):
     old_groups = app.group.get_group_list()
     group = Group(name="first test", header="python group",footer="Python")
     app.group.create(group)
