@@ -45,6 +45,16 @@ class ContactHelper:
         wd.find_element_by_name("update").click()
         self.contact_cash = None
 
+    def modify_by_id(self, id, new_contactgroup):
+        wd = self.app.wd
+        self.open_contacts_page()
+        # self.select_contact_by_index(index)
+        # search Modify btn with index
+        wd.find_element_by_xpath(".//*[@id='maintable']/tbody/tr["+str(id+2)+"]/td[8]/a/img").click()
+        self.fill_contact_form(new_contactgroup)
+        wd.find_element_by_name("update").click()
+        self.contact_cash = None
+
     def modify_first(self):
         self.modify_by_index(0)
 
@@ -54,11 +64,37 @@ class ContactHelper:
         if not (wd.current_url.endswith("/addressbook/")  > 0):
             wd.find_element_by_link_text("home").click()
 
+    def select_add_group_from_list(self, id):
+        wd = self.app.wd
+        #wd.find_elements_by_xpath(".//*[@id='content']/form[2]/div[4]/select/option")[index2].click()
+        wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[4]//option[@value='%s']" % id).click()
+        wd.find_element_by_name("add").click()
+
+    def select_group_for_deletion(self, id):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='right']//option[@value='%s']" % id).click()
+
+    def delete_contact_from_group(self):
+        wd = self.app.wd
+        wd.find_element_by_name("remove").click()
+
+
+
     def delete_by_index(self, index):
         wd = self.app.wd
         self.open_contacts_page()
         # select first group
         self.select_contact_by_index(index)
+        # delete
+        wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[2]/input").click()
+        wd.switch_to_alert().accept()
+        self.contact_cash = None
+
+    def delete_by_id(self, id):
+        wd = self.app.wd
+        self.open_contacts_page()
+        # select first group
+        self.select_contact_by_id(id)
         # delete
         wd.find_element_by_xpath(".//*[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
@@ -71,11 +107,13 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_elements_by_name("selected[]")[index].click()
 
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='%s']" % id).click()
 
     def select_first(self):
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
-
 
     def count(self):
         wd = self.app.wd
