@@ -1,0 +1,136 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1501485374318" stop="1501485423380">
+  <name>tests.test_add_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1501485374318" status="passed" stop="1501485401061">
+      <name>test_add_group[None:::]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485401078" status="passed" stop="1501485402807">
+      <name>test_add_group[None:name X2tE:headerkbHnke Hi:footermzsFlm]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485402808" status="passed" stop="1501485404508">
+      <name>test_add_group[None:nameQDTG:header8HAxEm:footer]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485404509" status="passed" stop="1501485406638">
+      <name>test_add_group[None:name:header8VbM2R:footerA74KJLzIZ]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485406639" status="passed" stop="1501485408599">
+      <name>test_add_group[None:nameVRVnxs29:headerkBJj4MF8:footerPyX]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485408600" status="passed" stop="1501485410780">
+      <name>test_add_group[None:nameb9Du:headeryDIZawsG:footerBNW]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485410781" status="passed" stop="1501485412616">
+      <name>test_add_defined_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485412617" status="passed" stop="1501485414490">
+      <name>test_add_group_db[None:::]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485414492" status="passed" stop="1501485416363">
+      <name>test_add_group_db[None:name X2tE:headerkbHnke Hi:footermzsFlm]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485416364" status="passed" stop="1501485418011">
+      <name>test_add_group_db[None:nameQDTG:header8HAxEm:footer]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485418013" status="passed" stop="1501485419484">
+      <name>test_add_group_db[None:name:header8VbM2R:footerA74KJLzIZ]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485419486" status="passed" stop="1501485421890">
+      <name>test_add_group_db[None:nameVRVnxs29:headerkBJj4MF8:footerPyX]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1501485421892" status="passed" stop="1501485423380">
+      <name>test_add_group_db[None:nameb9Du:headeryDIZawsG:footerBNW]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17388-MainThread"/>
+        <label name="host" value="novikov"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
